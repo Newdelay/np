@@ -1,0 +1,108 @@
+
+.box {
+    background: #ffba0026;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #ffba00;
+}
+
+.checknote {
+    display: inline-block;
+    text-indent: -10px;
+}
+
+.greenbox{
+    background: #1b2b0763;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #3f9042;
+    margin-top:15px;
+}
+
+.master{
+    color:#50c155 !important;
+}
+
+.input-error {
+    border-color: #581616 !important;
+    background: #311717 !important;
+}
+
+.input-success {
+    border-color: #1c5600 !important;
+    background: #10170e !important;
+}
+
+#myRange {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#myRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #ffba00;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+#myRange::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 70%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.select2-container {
+    margin-bottom: 20px !important;
+}
+
+.datepicker--squared.datepicker--dark .datepicker {
+    background-color: #1e2126;
+    border: 3px solid #323643;
+}
+
+.datepicker.dropdown-menu.open {
+    z-index: 999;
+}
+
+.agreement {
+    height: 100px;
+    overflow: auto;
+    margin-bottom: 20px;
+    background: #1e2126;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffba00;;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 4px;
+}
